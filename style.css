@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 90px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    color: blueviolet;
+    width: 200px;
+    border: 2px solid black;
+}
+
+nav ul{
+    display: flex;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+main{
+    background-image: url(blue-whale.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.call{
+    height: 350px;
+    width: 700px;
+    background-color: rgb(118, 235, 107);
+    border: 3px solid rgb(247, 58, 58);
+    border-radius: 10px;
+}
+
+h1{
+    color: #f01;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+.what{
+    background-color: rgb(124, 230, 98);
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+}
+
+
+
+
